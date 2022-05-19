@@ -6,41 +6,115 @@
 
 .body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
 .heder {
-  color: #3c0e9f;
-}
-.heder:hover {
-  color: tomato;
+  font-size: 16px;
+  line-height: 2;
+  text-align: left;
+  color: rgb(117, 117, 117);
 }
 
-.heder-link {
-  color:#212121
-Font style: Medium 
-Font size: 14sp
-Line height: 1.14
+.heder:hover {
+  color: #2196f3;
 }
+.heder:focus {
+  color: #2196f3;
+}
+
 .button {
   background-color: var(--accent-color);
 }
-.heder-link:hover {color: tomato;}
-.heder-link:focus {color: tomato;}
-.heder-item:hover {color: tomato;}
-.heder-item:focus {color: tomato;}
+.heder-link:hover {
+  color: tomato;
+}
+.heder-link:focus {
+  color: tomato;
+}
+.heder-item:hover {
+  color: tomato;
+}
+.heder-item:focus {
+  color: tomato;
+}
+.heder-link:active {
+  color: #2196f3;
+}
+.heder-item:active {
+  color: #2196f3;
+}
+.hero-link:hover {
+  color: tomato;
+}
+.hero-link:focus {
+  color: tomato;
+}
+.hero-item:hover {
+  color: tomato;
+}
+.hero-item:focus {
+  color: tomato;
+}
 
-.button:hover {color: tomato;}
-.button:focus {color: tomato;}
-.site-item:hover {color: tomato;}
-.site-item:focus {color: tomato;}
-.design-item:hover {color: rgb(166, 71, 255);}
-.design-item:focus {color: rgb(166, 71, 255);}
-.application-item:hover{ color: rgb(163, 255, 71);}
-.application-item:focus{ color: rgb(163, 255, 71);}
-.marketing-item:hover{color: rgb(71, 197, 255);}
-.marketing-item:focus{color: rgb(71, 197, 255);}
-.footer-link:hover {color: tomato;}
-.footer-link:focus {color: tomato;}
-.footer-item:hover {color: tomato;}
-.footer-item:focus {color: tomato;}
+.button:hover {
+  color: tomato;
+}
+.button:focus {
+  color: tomato;
+}
+.site-item:hover {
+  color: tomato;
+}
+.site-item:focus {
+  color: tomato;
+}
+.design-item:hover {
+  color: rgb(166, 71, 255);
+}
+.design-item:focus {
+  color: rgb(166, 71, 255);
+}
+.application-item:hover {
+  color: rgb(163, 255, 71);
+}
+.application-item:focus {
+  color: rgb(163, 255, 71);
+}
+.marketing-item:hover {
+  color: rgb(71, 197, 255);
+}
+.marketing-item:focus {
+  color: rgb(71, 197, 255);
+}
+.footer-link:hover {
+  color: tomato;
+}
+.footer-link:focus {
+  color: tomato;
+}
+.footer-item:hover {
+  color: tomato;
+}
+.footer-item:focus {
+  color: tomato;
+}
+.post-title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.site-item,
+.application-item,
+.marketing-item,
+.design-item {
+  font-size: 16px;
+  line-height: 2;
+  color: rgb(117, 117, 117);
+}
+.button,
+.hero-item {
+  cursor: pointer;
+}
