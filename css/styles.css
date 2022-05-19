@@ -1,0 +1,46 @@
+:root {
+  --primary-white-color: #ffffff;
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+.heder {
+  color: #3c0e9f;
+}
+.heder:hover {
+  color: tomato;
+}
+
+.heder-link {
+  color:#212121
+Font style: Medium 
+Font size: 14sp
+Line height: 1.14
+}
+.button {
+  background-color: var(--accent-color);
+}
+.heder-link:hover {color: tomato;}
+.heder-link:focus {color: tomato;}
+.heder-item:hover {color: tomato;}
+.heder-item:focus {color: tomato;}
+
+.button:hover {color: tomato;}
+.button:focus {color: tomato;}
+.site-item:hover {color: tomato;}
+.site-item:focus {color: tomato;}
+.design-item:hover {color: rgb(166, 71, 255);}
+.design-item:focus {color: rgb(166, 71, 255);}
+.application-item:hover{ color: rgb(163, 255, 71);}
+.application-item:focus{ color: rgb(163, 255, 71);}
+.marketing-item:hover{color: rgb(71, 197, 255);}
+.marketing-item:focus{color: rgb(71, 197, 255);}
+.footer-link:hover {color: tomato;}
+.footer-link:focus {color: tomato;}
+.footer-item:hover {color: tomato;}
+.footer-item:focus {color: tomato;}
