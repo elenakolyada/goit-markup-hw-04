@@ -15,90 +15,202 @@
   line-height: 2;
   text-align: left;
   color: rgb(117, 117, 117);
+  display: none;
 }
-
-.heder:hover {
-  color: #2196f3;
+.link.current {
+  color: var(--accent-color);
 }
+.heder:hover,
 .heder:focus {
   color: #2196f3;
 }
 
-.button {
-  background-color: var(--accent-color);
+.logo {
+  font-family: "Raleway";
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
 }
+.logo-footer {
+  font-family: "Raleway";
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
+.contacts-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.hero {
+  background-color: var(--primary-text-color);
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: Center;
+  color: var(--primary-white-color);
+}
+
+.button-blue {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+}
+.button {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+}
+.logo-style {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.title-image {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .heder-link:hover {
-  color: tomato;
+  color: var(--accent-color);
 }
 .heder-link:focus {
-  color: tomato;
+  color: var(--accent-color);
 }
 .heder-item:hover {
-  color: tomato;
+  color: var(--accent-color);
 }
 .heder-item:focus {
-  color: tomato;
+  color: var(--accent-color);
 }
 .heder-link:active {
-  color: #2196f3;
+  color: var(--accent-color) 3;
 }
 .heder-item:active {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.heder-link,
+.hero-link,
+.list,
+.footer-link {
+  list-style: none;
 }
 .hero-link:hover {
-  color: tomato;
+  color: var(--accent-color);
 }
 .hero-link:focus {
-  color: tomato;
+  color: var(--accent-color) o;
 }
 .hero-item:hover {
-  color: tomato;
+  color: var(--accent-color);
 }
 .hero-item:focus {
-  color: tomato;
+  color: var(--accent-color);
 }
 
 .button:hover {
-  color: tomato;
+  color: var(--accent-color);
 }
 .button:focus {
-  color: tomato;
+  color: var(--accent-color);
 }
 .site-item:hover {
-  color: tomato;
+  color: var(--accent-color);
 }
 .site-item:focus {
-  color: tomato;
+  color: var(--accent-color);
 }
 .design-item:hover {
-  color: rgb(166, 71, 255);
+  color: var(--accent-color);
 }
 .design-item:focus {
-  color: rgb(166, 71, 255);
+  color: var(--accent-color);
 }
 .application-item:hover {
-  color: rgb(163, 255, 71);
+  color: var(--accent-color);
 }
 .application-item:focus {
-  color: rgb(163, 255, 71);
+  color: var(--accent-color);
 }
 .marketing-item:hover {
-  color: rgb(71, 197, 255);
+  color: var(--accent-color);
 }
 .marketing-item:focus {
-  color: rgb(71, 197, 255);
+  color: var(--accent-color);
+}
+.footer {
+  background: var(--primary-text-color);
+}
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .footer-link:hover {
-  color: tomato;
+  color: var(--accent-color);
 }
 .footer-link:focus {
-  color: tomato;
+  color: var(--accent-color);
 }
 .footer-item:hover {
-  color: tomato;
+  color: var(--accent-color);
 }
 .footer-item:focus {
-  color: tomato;
+  color: var(--accent-color);
 }
 .post-title {
   font-weight: 700;
