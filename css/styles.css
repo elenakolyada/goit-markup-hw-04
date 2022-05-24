@@ -28,6 +28,7 @@
 .logo {
   font-family: "Raleway";
   font-style: Bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--primary-text-color);
@@ -39,11 +40,7 @@
   line-height: 1.2;
   color: var(--primary-white-color);
 }
-.link {
-  text-decoration: none;
-}
 .contacts-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,6 +54,18 @@
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.contacts-link-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.link {
+  text-decoration: none;
+}
 .hero {
   font-weight: 900;
   font-size: 44px;
@@ -67,14 +76,30 @@
   color: var(--primary-white-color);
   background-color: var(--primary-text-color);
 }
-
-.button-blue {
+.button-blue-hero {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button-blue-hero:hover,
+.button-blue-hero:focus {
+  color: var(--accent-color);
+}
+.button-blue {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-blue:hover,
 .button-blue:focus {
@@ -82,18 +107,26 @@
 }
 .button {
   color: var(--primary-text-color);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.6;
   text-align: center;
+  letter-spacing: 0.03em;
 }
-.logo-style {
+.logo-style-first {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+.logo-style-second {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .title {
   font-weight: 700;
@@ -148,7 +181,8 @@
 .heder-link,
 .hero-link,
 .list,
-.footer-link {
+.footer-link,
+.link {
   list-style: none;
 }
 .hero-link:hover,
@@ -183,10 +217,11 @@
   background: var(--primary-text-color);
 }
 .footer-adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .footer-link:hover {
   color: var(--accent-color);
@@ -212,7 +247,7 @@
 .design-item {
   font-size: 16px;
   line-height: 2;
-  color: rgb(117, 117, 117);
+  color: #757575;
 }
 .button,
 .hero-item {
