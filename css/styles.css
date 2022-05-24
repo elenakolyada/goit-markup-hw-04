@@ -37,7 +37,7 @@
   font-style: Bold;
   font-size: 26px;
   line-height: 1.2;
-  color: white;
+  color: var(--primary-white-color);
 }
 .link {
   text-decoration: none;
@@ -55,14 +55,17 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .hero {
-  background-color: var(--primary-text-color);
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: Center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--primary-white-color);
+  background-color: var(--primary-text-color);
 }
 
 .button-blue {
@@ -72,6 +75,10 @@
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
+}
+.button-blue:hover,
+.button-blue:focus {
+  color: var(--accent-color);
 }
 .button {
   color: var(--primary-text-color);
@@ -123,20 +130,16 @@
   color: #757575;
 }
 
-.heder-link:hover {
-  color: var(--accent-color);
-}
+.heder-link:hover,
 .heder-link:focus {
   color: var(--accent-color);
 }
-.heder-item:hover {
-  color: var(--accent-color);
-}
+.heder-item:hover,
 .heder-item:focus {
   color: var(--accent-color);
 }
 .heder-link:active {
-  color: var(--accent-color) 3;
+  color: var(--accent-color);
 }
 .heder-item:active {
   color: var(--accent-color);
@@ -148,46 +151,31 @@
 .footer-link {
   list-style: none;
 }
-.hero-link:hover {
-  color: var(--accent-color);
-}
+.hero-link:hover,
 .hero-link:focus {
-  color: var(--accent-color) o;
-}
-.hero-item:hover {
   color: var(--accent-color);
 }
+.hero-item:hover,
 .hero-item:focus {
   color: var(--accent-color);
 }
-
-.button:hover {
-  color: var(--accent-color);
-}
+.button:hover,
 .button:focus {
   color: var(--accent-color);
 }
-.site-item:hover {
-  color: var(--accent-color);
-}
+.site-item:hover,
 .site-item:focus {
   color: var(--accent-color);
 }
-.design-item:hover {
-  color: var(--accent-color);
-}
+.design-item:hover,
 .design-item:focus {
   color: var(--accent-color);
 }
-.application-item:hover {
-  color: var(--accent-color);
-}
+.application-item:hover,
 .application-item:focus {
   color: var(--accent-color);
 }
-.marketing-item:hover {
-  color: var(--accent-color);
-}
+.marketing-item:hover,
 .marketing-item:focus {
   color: var(--accent-color);
 }
