@@ -77,6 +77,8 @@
   background-color: var(--primary-text-color);
 }
 .button-blue-hero {
+  font-family: "Roboto";
+  font-style: normal;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-weight: 700;
@@ -93,6 +95,8 @@
   color: var(--accent-color);
 }
 .button-blue {
+  font-family: "Roboto";
+  font-style: normal;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-weight: 500;
@@ -106,6 +110,8 @@
   color: var(--accent-color);
 }
 .button {
+  font-family: "Roboto";
+  font-style: normal;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
