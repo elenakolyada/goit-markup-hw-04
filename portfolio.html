@@ -9,46 +9,62 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
+
+
   <body class="body">
+    <section class="section-no-padding">
     <header>
-      <a class="logo link" href=""
+      <div class="container">
+        <div class="flex-container">
+      <a class="logo link flex-element-logo" href=""
         ><span class="logo-style-first">Web</span
         ><span class="logo-style-second">Studio</span></a
       >
       <nav>
-        <ul>
-          <li class="heder-link">
+        <ul class="site-nav1 ul">
+          <li class="heder-link flex-element1">
             <a class="heder-item link contacts" href="./index.html">Студия</a>
           </li>
-          <li class="heder-link">
+          <li class="heder-link flex-element1">
             <a class="heder-item link current contacts" href="">Портфолио</a>
           </li>
-          <li class="heder-link">
+          <li class="heder-link flex-element1">
             <a class="heder-item link contacts" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li class="heder-link">
+      <ul class="site-nav2 ul">
+        <li class="heder-link flex-element2">
           <a
             class="heder-item link contacts-link"
             href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li class="heder-link">
+        <li class="heder-link flex-element2">
           <a class="heder-item link contacts-link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
       </ul>
     </header>
+  </section>
+
+
     <main>
-      <section>
+      <section class="section-no-padding">
+        <div class="container">
         <h1 class="heder">portfolio</h1>
-        <ul>
+        <ul class="ul">
           <li class="hero-link">
             <button class="button-blue" type="button">Все</button>
           </li>
@@ -65,13 +81,15 @@
             <button class="button" type="button">Маркетинг</button>
           </li>
         </ul>
-
-        <ul>
+        
+        <div class="container-text"> 
+          <div class="container-elements"> 
+        <ul class="ul">
           <li class="list">
             <img src="./img/img1.jpg" alt="фото1" width="370" height="294" />
 
-            <h2 class="post-title">Технокряко</h2>
-            <p class="site-item">Веб-сайт</p>
+            <h2 class="post-title h2">Технокряко</h2>
+            <p class="site-item p">Веб-сайт</p>
           </li>
 
           <li class="list">
@@ -81,42 +99,45 @@
           </li>
           <li class="list">
             <img src="./img/img3.jpg" alt="фото3" width="370" height="294" />
-            <h2 class="post-title">Ресторан Seafood</h2>
-            <p class="application-item">Приложение</p>
+            <h2 class="post-title h2">Ресторан Seafood</h2>
+            <p class="application-item p">Приложение</p>
           </li>
           <li class="list">
             <img src="./img/img4.jpg" alt="фото4" width="370" height="294" />
-            <h2 class="post-title">Проект Prime</h2>
-            <p class="marketing-item">Маркетинг</p>
+            <h2 class="post-title h2">Проект Prime</h2>
+            <p class="marketing-item p">Маркетинг</p>
           </li>
           <li class="list">
             <img src="./img/img5.jpg" alt="фото4" width="370" height="294" />
-            <h2 class="post-title">Boxes Prime</h2>
-            <p class="application-item">Приложение</p>
+            <h2 class="post-title h2">Boxes Prime</h2>
+            <p class="application-item p">Приложение</p>
           </li>
           <li class="list">
             <img src="./img/img6.jpg" alt="фото4" width="370" height="294" />
-            <h2 class="post-title">Inspiration has no Borders</h2>
-            <p class="site-item">Веб-сайт</p>
+            <h2 class="post-title h2">Inspiration has no Borders</h2>
+            <p class="site-item p">Веб-сайт</p>
           </li>
           <li class="list">
             <img src="./img/img7.jpg" alt="фото4" width="270" height="294" />
-            <h2 class="post-title">Издание Limited Edition</h2>
-            <p class="design-item">Дизайн</p>
+            <h2 class="post-title h2">Издание Limited Edition</h2>
+            <p class="design-item p">Дизайн</p>
           </li>
           <li class="list">
             <img src="./img/img8.jpg" alt="фото4" width="370" height="260" />
-            <h2 class="post-title">Проект LAB</h2>
-            <p class="marketing-item">Маркетинг</p>
+            <h2 class="post-title h2">Проект LAB</h2>
+            <p class="marketing-item p">Маркетинг</p>
           </li>
           <li class="list">
             <img src="./img/img9.jpg" alt="фото4" width="370" height="294" />
-            <h2 class="post-title">Growing Business</h2>
-            <p class="application-item">Приложение</p>
+            <h2 class="post-title h2">Growing Business</h2>
+            <p class="application-item p">Приложение</p>
           </li>
+
         </ul>
+      </div>
       </section>
     </main>
+
     <footer class="footer">
       <a class="logo-footer link" href=""
         ><span class="logo-style-first">Web</span
