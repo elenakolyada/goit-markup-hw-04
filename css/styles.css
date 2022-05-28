@@ -27,9 +27,6 @@
 .button {
   cursor: pointer;
 }
-/* .img {
-  display: block;
-} */
 .heder {
   font-size: 16px;
   line-height: 2;
@@ -48,7 +45,8 @@
   display: inline-block;
   display: flex;
   margin: 0 auto;
-  padding: 0;
+  padding-top: 24px;
+  padding-bottom: 25px;
   align-items: center;
 }
 
@@ -171,6 +169,8 @@
   display: inline-block;
   text-align: center;
   border: 1px solid transparent;
+  padding: 10px 32px 10px 32px;
+  border-radius: 6px;
 }
 .button-blue-hero:hover,
 .button-blue-hero:focus {
@@ -186,11 +186,30 @@
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  display: block;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 22px 6px 22px;
+  border-radius: 6px;
 }
 .button-blue:hover,
 .button-blue:focus {
   color: var(--accent-color);
 }
+.container-button {
+  display: flex;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  justify-content: center;
+}
+.flex-button {
+  display: block;
+  margin-left: 8px;
+}
+.flex-button:nth-child(-5n) {
+  margin-left: 0;
+}
+
 .button {
   font-family: "Roboto";
   font-style: normal;
@@ -200,6 +219,10 @@
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  display: block;
+  border: 1px solid transparent;
+  padding: 6px 22px 6px 22px;
+  background-color: rgba(245, 244, 250, 1);
 }
 .logo-style-first {
   font-family: "Raleway";
@@ -258,7 +281,6 @@
 .name {
   display: block;
   padding-top: 30px;
-  /* padding-bottom: 10px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -275,9 +297,26 @@
 }
 .container-teem {
   display: inline-block;
-  margin-right: 30px;
 }
+
 .container-teem:nth-child(4n) {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.img-portfolio {
+  display: block;
+}
+.container-portfolio {
+  display: flex;
+  padding-bottom: 0px;
+}
+.portfolio-elements {
+  display: inline-flex;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  width: 380px;
+}
+.portfolio-elements:nth-child(3n) {
   margin-right: 0;
   margin-bottom: 0;
 }
@@ -341,6 +380,18 @@
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
+.container-footer {
+  display: block;
+  margin-top: 20px;
+}
+.container-logo {
+  display: inline-block;
+}
+.footer-link {
+  display: block;
+  padding-bottom: 9px;
+}
+
 .footer-link:hover {
   color: var(--accent-color);
 }
@@ -354,6 +405,7 @@
   color: var(--accent-color);
 }
 .post-title {
+  display: block;
   font-weight: 700;
   font-style: bold;
   font-size: 18px;
@@ -363,6 +415,7 @@
 .application-item,
 .marketing-item,
 .design-item {
+  display: block;
   font-size: 16px;
   line-height: 2;
   color: #757575;
