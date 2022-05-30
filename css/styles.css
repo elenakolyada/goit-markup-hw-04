@@ -26,7 +26,6 @@ ul,
 ol {
   margin: 0;
   padding-left: 0;
-  display: flex;
 }
 .button {
   cursor: pointer;
@@ -36,12 +35,14 @@ ol {
   max-width: 100%;
 }
 .container {
-  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   outline: 1px solid red;
+}
+.container-header {
+  display: flex;
 }
 .header {
   font-size: 16px;
@@ -53,7 +54,6 @@ ol {
 
 .site-nav1 {
   display: flex;
-
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -64,6 +64,7 @@ ol {
   margin-left: auto;
 }
 .logo {
+  display: block;
   font-family: "Raleway";
   font-style: Bold;
   font-weight: 700;
@@ -73,12 +74,10 @@ ol {
   text-align: left;
   margin-right: 93px;
   margin-top: 24px;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
 }
 
 .header-link {
-  display: inline-block;
+  display: block;
 }
 .header-item {
   display: block;
@@ -87,24 +86,26 @@ ol {
 .link {
   text-decoration: none;
 }
-.head {
+
+.hero-section {
   background-color: var(--primary-text-color);
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: block;
 }
 .hero {
+  display: block;
   font-weight: 900px;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  display: block;
+
+  margin-bottom: 0;
+  /* padding-top: 200px; */
 }
 
 .button-blue-hero {
+  display: block;
   font-family: "Roboto";
   font-style: normal;
   background-color: var(--accent-color);
@@ -112,23 +113,46 @@ ol {
   font-weight: 700px;
   font-size: 16px;
   line-height: 1.88;
+  /* height: 50px;
+  min-width: 200px; */
   letter-spacing: 0.06em;
   text-align: center;
   border: 1px solid transparent;
   border-radius: 4px;
   margin-top: 30px;
+  margin-bottom: 200px;
 }
 
-.container-elements {
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-text {
+  display: flex;
+}
+.list-text {
   display: block;
-  flex-direction: column;
   width: 270px;
   justify-content: space-between;
-  margin-right: 30px;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
-.container-elements:nth-child(4n) {
+.list-text:nth-child(4n) {
   margin-right: 0;
+}
+.list {
+  width: 370px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.list:nth-child(3n) {
+  margin-right: 0;
+}
+.container-elements {
+  display: block;
+  border: 1px solid #ececec;
+  border-top: none;
 }
 
 .link.current {
@@ -201,6 +225,10 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .button-blue:hover,
 .button-blue:focus {
@@ -217,6 +245,10 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .logo-style-first {
   font-family: "Raleway";
@@ -233,6 +265,9 @@ ol {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.title-text {
+  display: flex;
+}
 .title {
   display: block;
   padding-bottom: 10px;
@@ -243,12 +278,14 @@ ol {
   text-transform: uppercase;
 }
 .text {
+  display: block;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .title-image {
+  display: block;
   text-align: center;
   margin-top: 0;
   padding-top: 94px;
@@ -309,10 +346,15 @@ ol {
 .header-item:active {
   color: var(--accent-color);
 }
+
+.hero-button {
+  display: flex;
+  justify-content: center;
+}
 .hero-link {
-  display: inline-flex;
+  display: block;
   margin-right: 8px;
-  text-align: center;
+  align-items: center;
 }
 .hero-link:nth-child(5n) {
   margin-right: 0;
@@ -353,15 +395,36 @@ ol {
 .marketing-item:focus {
   color: var(--accent-color);
 }
+
 .footer {
   background: var(--primary-text-color);
+  width: 1600px;
 }
 .footer-adress {
+  display: block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
+}
+.logo-footer {
+  padding-top: 60px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+.footer-item {
+  display: block;
+  margin-bottom: 9px;
+}
+.footer-link {
+  display: block;
+  margin-bottom: 9px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+.footer-link:nth-child(3n) {
+  padding-bottom: 60px;
 }
 .footer-link:hover {
   color: var(--accent-color);
@@ -392,4 +455,16 @@ ol {
 .button,
 .hero-item {
   cursor: pointer;
+}
+.header-portfolio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
