@@ -13,10 +13,6 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* .section-no-padding {
-  padding-top: 0;
-  padding-bottom: 0;
-} */
 h1,
 h2,
 h3,
@@ -128,7 +124,6 @@ ol {
   display: flex;
   flex-wrap: wrap;
 }
-
 .list-text {
   display: block;
   width: 270px;
@@ -306,7 +301,6 @@ ol {
 .img:nth-child(3n) {
   margin-right: 0;
 }
-
 .name {
   display: block;
   padding-top: 30px;
