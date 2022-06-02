@@ -11,7 +11,6 @@
 }
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 h1,
 h2,
@@ -35,7 +34,8 @@ ol {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   outline: 1px solid red;
 }
 .container-header {
@@ -93,14 +93,14 @@ ol {
 .hero {
   max-width: 1600px;
   display: inline-block;
-  font-weight: 696px;
+  width: 696px;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  padding-left: 200px;
-  padding-right: 200px;
   padding-bottom: 30px;
 }
 
@@ -110,7 +110,9 @@ ol {
   font-style: normal;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  font-weight: 700px;
+  font-weight: 700;
+  width: 200px;
+  height: 50px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -147,6 +149,7 @@ ol {
   display: block;
   border: 1px solid #ececec;
   border-top: none;
+  padding: 20px 24px 20px 24px;
 }
 
 .link.current {
@@ -261,10 +264,12 @@ ol {
 }
 .title-text {
   display: flex;
+  margin-top: -30px;
+  margin-bottom: -30px;
 }
 .title {
   display: block;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -282,8 +287,7 @@ ol {
   display: block;
   text-align: center;
   margin-top: 0;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -293,6 +297,7 @@ ol {
 .container-img {
   display: flex;
   justify-content: space-between;
+  margin-bottom: -50px;
 }
 .img {
   display: block;
@@ -303,7 +308,6 @@ ol {
 }
 .name {
   display: block;
-  padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -317,7 +321,11 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-top: 10px;
+  margin-top: 10px;
+}
+.container-teem {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -337,6 +345,7 @@ ol {
 .hero-button {
   display: flex;
   justify-content: center;
+  padding-bottom: 56px;
 }
 .hero-link {
   display: block;
@@ -387,6 +396,8 @@ ol {
   background: #2f303a;
   width: 1600px;
   position: absolute;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-adress {
   display: block;
@@ -397,9 +408,7 @@ ol {
   color: var(--primary-white-color);
 }
 .logo-footer {
-  padding-top: 60px;
-  padding-bottom: 20px;
-  padding-left: 345px;
+  margin-bottom: 20px;
 }
 .footer-item {
   display: block;
@@ -408,11 +417,6 @@ ol {
 .footer-link {
   display: block;
   margin-bottom: 9px;
-  padding-bottom: 0px;
-  padding-left: 345px;
-}
-.footer-link:nth-child(3n) {
-  padding-bottom: 60px;
 }
 .footer-link:hover {
   color: var(--accent-color);
