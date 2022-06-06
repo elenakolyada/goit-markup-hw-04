@@ -85,10 +85,7 @@ ol {
 }
 
 .hero-section {
-  background: #2f303a;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 .hero {
   max-width: 1600px;
@@ -102,6 +99,7 @@ ol {
   text-transform: uppercase;
   color: var(--primary-white-color);
   padding-bottom: 30px;
+  padding-top: 200px;
 }
 
 .button-blue-hero {
@@ -382,7 +380,22 @@ ol {
 .header-item:active {
   color: var(--accent-color);
 }
-
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-top: -94px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/img_overlay.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .hero-button {
   display: flex;
   justify-content: center;
