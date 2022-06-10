@@ -288,7 +288,9 @@ ol {
   display: flex;
 }
 .my-icon {
+  display: block;
   fill: currentColor;
+  margin-right: 10px;
 }
 
 /* .list-logo {
