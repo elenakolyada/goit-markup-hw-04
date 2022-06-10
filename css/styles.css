@@ -556,17 +556,18 @@ ol {
 .soc-link {
   width: 100%;
   height: 100%;
-  background-color: #2196f3;
+  background-color: #ffffff;
   display: block;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #0d0d0d;
 }
 .soc-link:hover,
 .soc-link:focus {
-  background-color: #757575;
-  fill: aqua;
+  background-color: var(--accent-color);
+  fill: rgba(175, 177, 184, 1);
 }
 .soc-icon {
+  align-items: center;
   fill: currentColor;
 }
