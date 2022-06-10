@@ -560,12 +560,12 @@ ol {
   display: block;
   align-items: center;
   justify-content: center;
-  color: #0d0d0d;
+  color: rgba(175, 177, 184, 1);
 }
 .soc-link:hover,
 .soc-link:focus {
   background-color: var(--accent-color);
-  fill: rgba(175, 177, 184, 1);
+  fill: var(--primary-text-color);
 }
 .soc-icon {
   align-items: center;
