@@ -199,6 +199,7 @@ ol {
   display: block;
   text-align: right;
   margin-left: 50px;
+  padding-left: 10px;
 }
 .contacts-link:nth-last-child(-2n) {
   margin-left: 0;
