@@ -562,6 +562,7 @@ ol {
   display: block;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
   color: rgba(175, 177, 184, 1);
 }
 .soc-link:hover,
