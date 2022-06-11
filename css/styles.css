@@ -141,6 +141,20 @@ ol {
   margin-right: 0;
   margin-bottom: 0;
 }
+/* .list-text::before {
+  display: block;
+  content: "";
+  height: 120px;
+  outline: 1px solid red;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e5e5e5;
+}
+.list-text:nth-child(1)::before {
+  background-image: url("./images/symbol-defs.svg#icon-sputnik");
+} */
+
 .list {
   display: block;
   justify-content: space-between;
