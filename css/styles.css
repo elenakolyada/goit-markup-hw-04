@@ -141,19 +141,6 @@ ol {
   margin-right: 0;
   margin-bottom: 0;
 }
-/* .list-text::before {
-  display: block;
-  content: "";
-  height: 120px;
-  outline: 1px solid red;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #e5e5e5;
-}
-.list-text:nth-child(1)::before {
-  background-image: url("./images/symbol-defs.svg#icon-sputnik");
-} */
 
 .list {
   display: block;
@@ -178,11 +165,12 @@ ol {
   display: block;
   width: 370px;
   justify-content: space-between;
+  background-color: #ffffff;
   border: 1px solid #ececec;
-  border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .list-teem:nth-child(4n) {
   margin-right: 0;
@@ -296,8 +284,6 @@ ol {
 
 .button:hover,
 .button:focus {
-  /* border: var(--accent-color);
-  color: #ffffff; */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .logo-style-first {
@@ -343,7 +329,7 @@ ol {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  background-color: #e5e5e5;
+  background-color: rgba(245, 244, 250, 1);
 }
 .title-icon {
   width: 70px;
@@ -434,8 +420,7 @@ ol {
 }
 .container-teem {
   padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: -30px;
+  padding-bottom: 94px;
 }
 
 .header-link:hover,
@@ -500,7 +485,8 @@ ol {
 }
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  color: white;
+  background-color: #2196f3;
 }
 .site-item:hover,
 .site-item:focus {
@@ -596,6 +582,8 @@ ol {
 .soc-list {
   display: flex;
   justify-content: center;
+  margin-bottom: -30px;
+  padding-bottom: 30px;
 }
 .soc-link {
   width: 100%;
@@ -619,8 +607,7 @@ ol {
 .footer-slogan {
   padding-left: 70px;
 }
-/* .container-adress {
-} */
+
 .footer-soc-item {
   width: 44px;
   height: 44px;
@@ -661,7 +648,12 @@ ol {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
 }
-
+.container-teem {
+  background-color: #f5f4fa;
+}
+.client-slogan {
+  margin-top: -94px;
+}
 .client-soc-item {
   width: 170px;
   height: 92px;
@@ -673,6 +665,10 @@ ol {
 .client-soc-list {
   display: flex;
   justify-content: center;
+  margin-bottom: -30px;
+}
+.client-soc-list:last-child {
+  margin-right: 0;
 }
 .client-soc-link {
   width: 100%;
