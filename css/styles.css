@@ -159,7 +159,7 @@ ol {
 .list {
   display: block;
   justify-content: space-between;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   margin-right: 30px;
 }
 .list:nth-child(3n) {
@@ -412,7 +412,10 @@ ol {
 .image:last-child {
   margin-right: 0;
 }
-
+.container-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .name {
   display: block;
   font-weight: 500;
@@ -429,7 +432,7 @@ ol {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
-  padding-bottom: 30px;
+  margin-bottom: 16px;
 }
 .team {
   background-color: #f5f4fa;
@@ -649,13 +652,10 @@ ol {
   color: rgba(255, 255, 255, 1);
 }
 
-.client-slogan {
-  margin-top: -94px;
-}
 .client-soc-item {
   width: 170px;
   height: 92px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 .client-soc-item:last-child {
   margin-right: 0;
@@ -663,7 +663,7 @@ ol {
 .client-soc-list {
   display: flex;
   justify-content: center;
-  margin-bottom: -30px;
+  /* margin-bottom: -30px; */
 }
 .client-soc-list:last-child {
   margin-right: 0;
