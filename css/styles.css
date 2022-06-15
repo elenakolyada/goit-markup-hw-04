@@ -165,6 +165,15 @@ ol {
 .list:nth-child(3n) {
   margin-right: 0;
 }
+.list-portfolio {
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.list-portfolio:nth-child(3n) {
+  margin-right: 0;
+}
 .list-image {
   display: block;
   width: 370px;
